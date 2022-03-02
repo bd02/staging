@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Day population (LandScan public), converted to .tif format that different platforms can work with.  (For some reason the .gdb files on HIFLD will open only in ArcGIS, so I converted them to tiff.)</p>
+
+<p>Public source: Homeland Infrastructure Foundation-Level Data (HIFLD) public (<a href="https://hifld-geoplatform.opendata.arcgis.com/">https://hifld-geoplatform.opendata.arcgis.com/</a>), the U.S. Department of Homeland Security's public geo-data collection that is intended for public use.  LandScan page, <a href="https://hifld-geoplatform.opendata.arcgis.com/search?collection=Dataset&groupIds=2eed2acceacd4f2f8f324f15aa341a7b">https://hifld-geoplatform.opendata.arcgis.com/search?collection=Dataset&groupIds=2eed2acceacd4f2f8f324f15aa341a7b</a>.</p>
+
+<p>Source (author): Oak Ridge National Laboratory (ORNL).  Description at bottom.</p>
+
+<li>Continental United States (CONUS [the lower 48 states and DC]) day population: <a href="ORNL%20LandScan%20public%20data%20-%20CONUS%20day%20population.zip">ORNL LandScan public data - CONUS day population.zip</a> (62 MB).  The zero-data pixels are coded as zero rather than a large number.</li>
+
+<li>Alaska day population: <a href="ORNL%20LandScan%20public%20data%20-%20Alaska%20day%20population.zip">ORNL LandScan public data - Alaska day population.zip</a> (1.1 MB).</li>
+
+<li>Hawaii day population: <a href="ORNL%20LandScan%20public%20data%20-%20Hawaii%20day%20population.zip">ORNL LandScan public data - Hawaii day population.zip</a> (862 kb).</li>
+
+<li>U.S. territories day population: <a href="ORNL%20LandScan%20public%20data%20-%20U.S.%20territories%20day%20population.zip">ORNL LandScan public data - U.S. territories day population.zip</a> (557 kb).  Puerto Rico, U.S. Virgin Islands, the Commonwealth of the Northern Mariana Islands, American Samoa, and Guam.</li>
+
+<p>Summary (ORNL, from HIFLD pages)</p>
+
+<p>The LandScan USA Population Database provides estimated population counts at 3 arc-second (~90m) resolution for nighttime and daytime, for the continental United States, Hawaii, Alaska, and the five permanently inhabited USA territories. Residents, prisoners, workers, students, shoppers, and stay-at-home populations are modeled. These are baseline population estimates, which do not include transitory populations such as business travelers and tourists. LandScan USA is a dasymetric model that refines the distribution of the population within each census block polygon. Rather than evenly distributing the population throughout the census block, the LandScan algorithm divides each polygon into a 90-meter grid and distributes the total block population to the grid cells according to weights proportional to the calculated likelihood of being populated. Data source: OAK RIDGE National Laboratory. Data and details are hosted by HIFLD as received from the data provider. For questions / feedback, please email <a href ="hifld@hq.dhs.gov">hifld@hq.dhs.gov</a>.</p>
+
+<p>Purpose: To provide essential foundation-level high resolution spatial population distribution data for use in direct support of the Homeland Security, Homeland Defense, and Emergency Response and Recovery missions to protect the nation's infrastructure in accordance with Presidential Policy Directive-8: National Preparedness (PPD-8), PPD-21: Critical Infrastructure Security and Resilience, and the National Strategy for Physical Protection of Critical Infrastructure and Key Assets.</p>
+
+<p>Data Values: The values of the cells are integer population counts representing either the daytime or nighttime estimated population distribution. LandScan USA employs sub-models for different population components (residents, workers, prisoners, students, shoppers). Each sub-model begins with observed or estimated population counts for a defined area. The populations are redistributed to raster cells according to the relationship between spatial ancillary layers and population density. The ‘Value’ field in the database table refers to the estimated population in a cell, while the ‘Count’ field references the number of cells in the grid having that Value. Learn more about LandScan at <a href="https://LandScan.ornl.gov">https://LandScan.ornl.gov</a>.</p>
+
+<br>- - - -<br><br>
+
+<p><a href="https://github.com/bd02/staging/tree/master/docs/Public%20sources/Method/General%20data">This folder on Github</a> (folder)</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
